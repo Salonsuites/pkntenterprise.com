@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="PKNT ENTERPRISES LLC — Lifestyle Innovation">
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9ced3"/><stop offset="1" stop-color="#9aa3ab"/>
+    </linearGradient>
+    <path id="arcTop" d="M 34 210 A 168 168 0 0 1 366 210"/>
+    <path id="arcBot" d="M 78 200 A 122 122 0 0 0 322 200"/>
+    <clipPath id="topHalf"><rect x="0" y="0" width="400" height="200"/></clipPath>
+    <clipPath id="botHalf"><rect x="0" y="200" width="400" height="200"/></clipPath>
+  </defs>
+  <circle cx="200" cy="200" r="196" fill="#12455e"/>
+  <circle cx="200" cy="200" r="188" fill="url(#silver)" clip-path="url(#botHalf)"/>
+  <circle cx="200" cy="200" r="190" fill="none" stroke="url(#silver)" stroke-width="4"/>
+  <g clip-path="url(#topHalf)">
+    <circle cx="200" cy="230" r="118" fill="url(#silver)"/>
+    <circle cx="216" cy="212" r="86" fill="#12455e"/>
+    <circle cx="230" cy="200" r="58" fill="url(#silver)"/>
+    <circle cx="242" cy="192" r="34" fill="#12455e"/>
+  </g>
+  <g clip-path="url(#botHalf)">
+    <circle cx="200" cy="230" r="118" fill="none" stroke="#12455e" stroke-width="10"/>
+  </g>
+  <text font-family="Montserrat, Avenir, Helvetica, Arial, sans-serif" font-size="27" letter-spacing="3.5" fill="#ffffff">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">PKNT ENTERPRISES LLC</textPath>
+  </text>
+  <text font-family="Montserrat, Avenir, Helvetica, Arial, sans-serif" font-size="19" letter-spacing="4" fill="#12455e">
+    <textPath href="#arcBot" startOffset="50%" text-anchor="middle">LIFESTYLE INNOVATION</textPath>
+  </text>
+</svg>
